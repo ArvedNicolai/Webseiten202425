@@ -1,0 +1,101 @@
+.title {
+    text-align: center;
+    font-size: 125px;
+  }
+  .description {
+    text-align: center;
+    font-size: 50px;
+  }
+  .container {
+    animation: change 10s linear infinite;
+    background:
+     linear-gradient(90deg, #18a194, #1f6f78, #539299, #0a8c9b)
+  }
+  @keyframes change{
+    0%{
+     color: #05474e;      
+    } 
+    25%{
+     color: #075861;      
+    }
+    50%{
+     color: #106a74;      
+    }
+    75%{
+     color: #104e55;      
+    }
+    100%{
+     color: #0c484e;      
+    }
+  }
+  .Abschnitte {
+    animation: change 10s linear infinite;
+    width: 300px;
+    border: 10px solid #05474e;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin: 50px;
+    background:
+     linear-gradient(90deg, #18a194, #1f6f78, #539299, #0a8c9b)
+  }
+  .Atze {
+    display: inline;
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: center;
+  }
+  .button1 {
+    border: none;
+    padding: 32px 32px;
+    text-decoration: none;
+    display: inline-block;
+    margin: 20px 55px;
+    cursor: pointer;
+    font-size: 50px;
+    text-align: center;
+    background-color: transparent;
+    }
+   .button2 {
+    border: none;
+    padding: 32px 0px;
+    text-decoration: none;
+    display: inline-block;
+    margin: 20px 50px;
+    cursor: pointer;
+    font-size: 50px;
+    text-align: center;
+    background-color: transparent;
+    }
+   .button3 {
+    border: none;
+    padding: 32px 0px;
+    text-decoration: none;
+    display: inline-block;
+    margin: 20px 43px;
+    cursor: pointer;
+    font-size: 50px;
+    text-align: center;
+    background-color: transparent;
+    }
+   .button4 {
+    border: none;
+    padding: 32px 32px;
+    text-decoration: none;
+    display: inline-block;
+    margin: 20px 42px;
+    cursor: pointer;
+    font-size: 50px;
+    text-align: center;
+    background-color: transparent;
+    }
+    .Text {
+     font-size: 30px;
+     margin-left: 25px;
+     margin-right: 30px;
+    }
+    .video {
+     align-items: center;
+     justify-content: center;
+    }

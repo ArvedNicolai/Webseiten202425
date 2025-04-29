@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="de">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Ben Mats</title>
+        <link rel="stylesheet" href="mcq.css">
+
+</head>
+<body>
+    <div class="container">
+        <h1>Allgemeinwissen Quiz</h1>
+        <div id="quiz-container">
+            <p id="question"></p>
+            <p id="question-number"></p> <!-- Frage Nummer anzeigen -->
+            <ul id="answers">
+                <!-- Antworten werden hier dynamisch hinzugefügt -->
+            </ul>
+            <div id="wiki-link"></div> <!-- Hier wird der Wikipedia-Link angezeigt -->
+        </div>
+        <div id="feedback"></div> <!-- Feedback wird hier angezeigt -->
+        <div id="score"></div>
+        <button id="restart-button" onclick="restartQuiz()">Nochmal spielen</button>
+    </div>
+    <script src="mcq.js"></script>
+  </body>
+  </html>

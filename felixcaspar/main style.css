@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    background: rgb(0, 0, 126);
+    color: rgb(233, 231, 200);
+    padding: 40px 0;
+    text-align: center;
+    margin:10;
+    
+}
+
+nav button {   
+    background-color: yellow;
+    color: rgb(0, 0, 0);
+    border: none;
+    padding: 20px 30px;
+    margin: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 50px;
+    transition: background-color 0.3s ease
+}  
+
+button:hover {
+    background-color: #34db53;
+}
+
+.countries { 
+    display:grid ;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    text-align: center;
+}
+
+.country { 
+    display: block;
+    text-decoration: none;
+    padding: 20px;
+    background-color: rgb(128, 170, 212);
+    color: black;
+    border-radius: 8px ;
+    font-size: 1.2rem;
+    transition: background-color 0.3s ease;
+}
+
+.country:hover {
+    background-color: yellow;
+}
+
+
+.country:active {
+    background-color: rgb(233, 233, 233);
+}
+
+nav {
+    margin-top: 10px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background:url("https://th.bing.com/th/id/OIP.HfivmytuwzdX9BZ4o-Mi1wHaGa?rs=1&pid=ImgDetMain");
+    color: #333;
+}
+
+header h1 {
+    font-size: 2.5rem;
+}
+
+nav {
+    margin-top: 20px;
+}
+
+section { 
+    padding: 20px;
+    margin: 20px;
+    background-color: rgb(244, 165, 96);
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+form { 
+    margin-top: 20px;
+}
+
+form label {
+    display: block;
+    margin: 5px 0;
+}
+
+form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+form button {
+    background-color: #0d009f;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+form button:hover {
+    background-color: #e5ff00;
+}
+
+footer { 
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+.maps { 
+    text-align: center;
+    font-size: 2.5rem;
+    margin: 20px;
+    color: gold;
+}
+
+.logo{ 
+    text-align: center;
+    margin: 20px;
+    size: 50px;
+    width: auto;
+}
+.Kontakt {  
+    background-color: #0d009f;
+    color: white;
+    border-end-end-radius: 20px;
+    cursor: pointer;
+    border-radius: 4px;
+    padding: 10px 20px;
+
+}
+
+form .Kontakt:hover {
+    background-color: #868873;
+}

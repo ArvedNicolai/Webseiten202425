@@ -1,0 +1,60 @@
+html {
+    background-image: url("https://flagcdn.com/w2560/gu.png");
+    background-position: center top;
+    background-size: cover;
+    overflow: hidden;
+    background-attachment: fixed;
+    font-family: 'Inter', sans-serif;
+    background-repeat: no-repeat;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-end;
+    height: 95vh;
+    max-width: 1200px;
+    margin: auto;
+    padding-bottom: 150px;
+}
+
+.button {
+    font-size: 20px;
+    border: none;
+    color: white;
+    background: linear-gradient(135deg, #004d40, #00796b);
+    border-radius: 25px;
+    width: 150px;
+    height: 70px;
+    margin: 15px;
+    transition: all 0.3s ease;
+    flex: 1 1 22%;
+    max-width: 220px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.button:hover {
+    background: linear-gradient(135deg, #ff4500, #e63900);
+    cursor: pointer;
+}
+
+.button:active {
+    background: red;
+}
+
+@media (max-width: 900px) {
+    .button {
+        flex: 1 1 45%;
+    }
+}
+
+@media (max-width: 600px) {
+    .button {
+        flex: 1 1 80%;
+    }
+}

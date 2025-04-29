@@ -1,0 +1,106 @@
+html {
+    background: linear-gradient(135deg, #87CEFA, #4682B4);
+    font-family: 'Inter', sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    max-width: 1100px;
+    margin: 50px auto;
+}
+
+.button5 {
+    margin: 10px;
+    font-size: 18px;
+    border: 2px solid transparent;
+    color: #fff;
+    background: linear-gradient(135deg, #4CAF50, #388E3C);
+    border-radius: 25px;
+    padding: 12px 25px;
+    transition: all 0.3s ease;
+}
+
+.button5:hover {
+    background: linear-gradient(135deg, #45a049, #2e7d32);
+    cursor: pointer;
+    border: 2px solid #fff;
+}
+
+h1 {
+    color: #222;
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 25px;
+}
+
+p {
+    font-size: 20px;
+    line-height: 1.8;
+}
+
+.textblöcke {
+    color: #444;
+}
+
+.kultur_bild {
+    width: 100%;
+    max-width: 1000px;
+    height: auto;
+    display: block;
+    margin: 50px auto;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.herkunft, .sprache, .altersstruktur, .religion {
+    padding: 20px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 20px auto;
+    max-width: 700px;
+    min-height: 220px;
+}
+
+.herkunft {
+    background: #d63384;
+    color: white;
+}
+
+.sprache {
+    background: #28a745;
+    color: white;
+}
+
+.altersstruktur {
+    background: #007bff;
+    color: white;
+}
+
+.religion {
+    background: #fd7e14;
+    color: white;
+}
+
+@media (max-width: 768px) {
+    .herkunft, .sprache, .altersstruktur, .religion {
+        width: 95%;
+        min-height: 200px;
+    }
+    .main {
+        padding: 20px;
+    }
+    h1 {
+        font-size: 40px;
+    }
+}

@@ -1,0 +1,84 @@
+body {
+    background: linear-gradient(135deg, #87CEFA, #4682B4);
+    font-family: 'Inter', sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
+
+h1 {
+    color: #222;
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 25px;
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: 600;
+    color: #222;
+    margin-bottom: 10px;
+}
+
+h4 {
+    font-size: 18px;
+    font-weight: 600;
+    color: #444;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.8;
+    color: #444;
+}
+
+button.button8 {
+    margin-top: 20px;
+    margin-left: 5px;
+    font-size: 20px;
+    border: 2px solid transparent;
+    color: #fff;
+    background: linear-gradient(135deg, #4CAF50, #388E3C);
+    border-radius: 25px;
+    padding: 12px 25px;
+    transition: all 0.3s ease;
+}
+
+button.button8:hover {
+    background: linear-gradient(135deg, #45a049, #2e7d32);
+    cursor: pointer;
+    border: 2px solid #fff;
+}
+
+.USA {
+    width: 45%;
+    float: left;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.Stützpunkt {
+    width: 45%;
+    height: 600px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 768px) {
+    .USA, .Stützpunkt {
+        width: 100%;
+        margin-top: 20px;
+    }
+    button.button8 {
+        width: 95%;
+        font-size: 18px;
+    }
+    h1 {
+        font-size: 40px;
+    }
+}
