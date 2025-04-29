@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="products.css">
+    <script src="https://kit.fontawesome.com/92d70a2fd8.js" crossorigin="anonymous"></script>
+  </head>
+  
+  <body>
+    <div class="container">
+      <div id="root"></div>
+      <div class="sidebar">
+        <div class="head">
+          <p>My Cart</p>
+        </div>
+        <div id="cartItem">Your cart is empty</div>
+        <div class="foot">
+          <h3>Total</h3>
+          <h2 id="total">€ 0.00</h2>
+        </div>
+      </div>
+    </div>
+    <nav>
+      <input type="checkbox" id="sidebar-active">
+      <label for="sidebar-active" class="open-sidebar-button">
+          <svg xmlns="http://www.w3.org/2000/svg" height="32px" viewBox="0 -960 960 960" width="32px" fill="#000000"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg>
+      </label>
+      <div class="links-container">
+          <label for="sidebar-active" class="close-sidebar-button">
+              <svg xmlns="http://www.w3.org/2000/svg" height="32px" viewBox="0 -960 960 960" width="32px" fill="#000000"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg>
+          </label>
+  
+          <a href="index.html" class="home-link">Home</a>
+          <a href="About.html">About</a>
+          <a href="Products.html">Products</a>
+          <a href="Partners.html">Partners</a>
+        
+      <div class="cart"><i class="fa-solid fa-cart-shopping"></i>
+        <p id="count">0</p>
+      </div>
+    
+      </div>
+    </nav>
+    <script src="products.js"></script>
+    <style>*{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      
+      font-size: 18px;
+  }
+  body{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+  }
+  .header{
+      height: 80px;
+      width: 70%;
+      background-color: aqua;
+      border-radius: 3px;
+      margin: 30px 0px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 15px;
+  }
+  .header .logo{
+      font-size: 30px;
+      font-weight: bold;
+      color: white;
+  }
+  .cart{
+      display: flex;
+      background-color: gray;
+      justify-content: space-between;
+      align-items: center;
+      padding: 7px 10px;
+      border-radius: 3px;
+      width: 80px;
+  }
+  .fa-solid{
+      color: aqua;
+  }
+  .cart p{
+      height: 22px;
+      width: 22px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 22px;
+      background-color: aqua;
+      color: white;
+  }
+  .container{
+      display: flex;
+      width: 70%;
+      margin-bottom: 30px;
+    margin-top: 70px;
+  }
+  #root{
+      width: 60%;
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-gap: 20px;
+  }
+  .sidebar{
+      width: 40%;
+      border-radius: 5px;
+      background-color: grey;
+      margin-left: 20px;
+      padding: 15px;
+      text-align: center;
+  }
+  .head{
+      background-color: aqua;
+      border-radius: 3px;
+      height: 40px;
+      padding: 10px;
+      margin-bottom: 20px;
+      color: white;
+      display: flex;
+      align-items: center;
+  }
+  .foot{
+      display: flex;
+      justify-content: space-between;
+      margin: 20px 0px;
+      padding: 10px 0px;
+      border-top: 1px solid #333;
+  }
+  .box{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+      border: 1px solid aqua;
+      border-radius: 5px;
+      padding: 15px;
+  }
+  .img-box{
+      width: 100%;
+      height: 180px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+  .images{
+      max-width: 90%;
+      max-height: 90%;
+      object-fit: cover;
+      object-position: center;
+  }
+  .bottom{
+      margin-top: 20px;
+      width: 100%;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+      height: 110px;
+  }
+  h2{
+      font-size: 20px;
+      color: red;
+      font-weight: 100;
+  }
+  button{
+      width: 100%;
+      position: relative;
+      border: none;
+      border-radius: 5px;
+      background-color: aqua;
+      padding: 7px 25px;
+      cursor: pointer;
+      color: white;
+  }
+  button:hover{
+      background-color: rgba(0, 255, 255, 0.425);
+  }
+  .cart-item{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 10px;
+      background-color: lightgrey;
+      border-bottom: 1px solid #aaa;
+      border-radius: 3px;
+      margin: 10px 10px;
+  }
+  .row-img{
+      width: 50px;
+      height: 50px;
+      border-radius: 50px;
+      border: 1px solid aqua;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+  .rowimg{
+      max-width: 43px;
+      max-height: 43px;
+      border-radius: 50%;
+  }
+  .fa-trash:hover{
+      cursor: pointer;
+      color: #333;
+  }
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+  :root{
+      --color-1: #0f1016;
+      --text-color: #f0f0f0;
+      --accent-color: #006aff;
+  }
+  *{
+      margin: 0;
+      padding: 0;
+  }
+  body{
+      background-color: #353535;
+  }
+  html{
+      font-size: 12pt;
+      font-family: impact, Helvetica, sans-serif;
+  }
+  nav{
+      height: 60px;
+      background-color: var(--color-1);
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      z-index: 10000;
+      position:fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+  }
+  .links-container{
+      height: 100%;
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+  }
+  nav a {
+      height: 100%;
+      padding: 0 20px;
+      display: flex;
+      align-items: center;
+      text-decoration: none;
+      color: var(--text-color);
+  }
+  nav a:hover{
+      background-color: var(--accent-color);
+  }
+  nav .home-link{
+      margin-right: auto;
+  }
+  nav svg{
+      fill: var(--text-color);
+  }
+  #sidebar-active{
+      display: none;
+  }
+  .open-sidebar-button, .close-sidebar-button{
+      display: none;
+  }
+  @media(max-width:380px){
+      .links-container{
+      flex-direction: column;
+      align-items: flex-start;
+      position: fixed;
+      top: 0;
+      right: -100%;
+      z-index: 10;
+      width: 300px;
+      background-color: var(--color-1);
+      box-shadow: -5px 0 5px rgba(0, 0, 0, 0.25);
+      transition: 0.7s ease-out;
+      }
+      
+  
+  
+  nav a{
+      box-sizing: border-box;
+      height: auto;
+      width: 100%;
+      padding: 20px 30px;
+      justify-content: flex-start;
+  
+  }
+  .open-sidebar-button, .close-sidebar-button{
+      display: block;   
+      padding: 20px;
+  }
+  #sidebar-active:checked ~ .links-container{
+      right: 0;
+  
+  }
+  }</style>
+  </body>
+  

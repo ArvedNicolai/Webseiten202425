@@ -1,0 +1,126 @@
+body {
+    font-family: Times New Roman;
+    background-color: white;
+ 
+}
+#myID1 {
+    text-align: center;
+     font-size:40pt;
+     font-weight:bold;
+     color: Black;
+    margin-top: 10px;
+  background-image:     url("https://i.pinimg.com/736x/80/f8/7d/80f87da58b4aa37bf32abb14fa77f42e.jpg"); 
+}
+.myClass1 {
+  width: 100%; 
+  text-align: left;
+  font-size:15pt;
+  color: black
+}
+.myClass2 {
+  width: 100%; 
+  text-align: left;
+  font-size:20pt;
+  color: grey
+}
+.myClass3 {
+  width: 100%; 
+  text-align: center;
+  font-size:14pt;
+  color: white; 
+  font-family: Verdana;
+  background-color: Black;
+  font-weight:bold;
+   padding: 10px;
+}
+.myClass4 {
+  width: 100%; 
+  text-align: left;
+  font-size:15pt;
+  color: black;
+   font-weight:bold;
+  b
+  }
+.myClass5 {
+  width: 100%; 
+  text-align: left;
+  font-size:15pt;
+  color: black;
+  
+    }
+.button {
+ border: none;
+ color: indianred;
+ padding: 15px 32px;
+ text-align: center;
+ text-decoration: none;
+ display: inline-block;
+ font-size: 16px;
+ margin: 4px 2px;
+ cursor: pointer;
+ }
+#myID2 {
+     font-weight:bold;
+   margin-top: 20px;
+   width: 100%; 
+  text-align: center;
+  font-size:14pt;
+  color: white; 
+  font-family: Verdana;
+  background-color: Black;
+   padding: 10px;
+  }
+ #toggleText{
+      display: none;
+    
+}
+  #toggleText2{
+      display: none;
+}
+  #toggleText3 {
+      display: none;
+}
+ #toggleText4 {
+      display: none;
+     font-size:15pt;
+   }
+ #toggleText5 {
+      display: none;
+     font-size:15pt;
+   }
+ #toggleText6 {
+      display: none;
+     font-size:15pt;
+   }
+#toggleText7 {
+      display: none;
+     font-size:15pt;
+   }
+#toggleText8 {
+      display: none;
+     font-size:15pt;
+   }
+#toggleText9 {
+      display: none;
+     font-size:15pt;
+   }
+#toggleText10 {
+      display: none;
+     font-size:12pt;
+   }
+#toggleText11 {
+      display: none;
+     font-size:12pt;
+   }
+   #toggleText12 {
+      display: none;
+     font-size:12pt;
+   }
+#toggleText14 {
+      display: none;
+     font-size:12pt;
+   }
+#toggleTexta {
+      display: none;
+     font-size:15pt;
+   }

@@ -1,0 +1,39 @@
+
+.myClass1 {
+  width: 100%; 
+  text-align: center;
+  font-size:40pt;
+  font-family: Lato, 'sans serif';
+  color:#FCEEA7;
+}
+
+#myID1 {
+    font-weight:bold;
+    color: red;
+    font-family: Lato, 'sans serif';
+  }
+
+.myClass2 {
+  width: 100%; 
+  text-align:center;
+  font-size:20pt;
+  color:#fceea7;
+}
+.myClass3 {
+  width: 40%; 
+  text-align: center;
+  font-size:14pt;
+  color:; 
+  font-family: Verdana;
+  background-color:#fceea7;
+   padding: 10px;
+  display:inline-block;
+}
+  
+  .main   {
+    background-image:url("https://static.vecteezy.com/system/resources/previews/010/513/903/original/beautiful-gradient-background-in-yellow-orange-and-white-smooth-and-soft-texture-free-vector.jpg");
+    text-align: center;
+}
+   
+.more {
+text-align: center;
