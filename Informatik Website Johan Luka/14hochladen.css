@@ -1,0 +1,137 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+  }
+  
+  header {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    border-radius: 30px;
+  }
+  
+  header .logo img {
+    height: 100px;
+    width: auto;
+    cursor: pointer;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;  
+    gap: 20px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: black;
+    padding: 8px 12px;
+    font-size: 1.3rem;
+    transition: background 0.3s, color 0.3s;
+  }
+  
+  nav ul li a:hover,
+  nav ul li.active a {
+    background: black;
+    color: white;
+    border-radius: 4px;
+  }
+  
+  main {
+    padding: 40px 20px;
+    margin: 20px auto;
+    max-width: 1200px;
+    background: beige;
+    border-radius: 30px;
+  }
+  
+  h2 {
+    font-size: 2em;
+    color: black;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  label {
+    font-weight: bold;
+    text-align: left;
+    display: block;
+    margin-bottom: 5px;
+    color: black;
+  }
+  
+  input, textarea {
+    width: calc(100% - 24px);
+    padding: 12px;
+    border: 1px solid black;
+    border-radius: 8px;
+    font-size: 1em;
+    background-color: white;
+  }
+  
+  textarea {
+    height: 100px;
+    resize: vertical;
+  }
+  
+  input[type="file"] {
+    display: none;
+  }
+  
+  .file-upload-label {
+    display: inline-block;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    color: black;
+    font-size: 1em;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .file-upload-label:hover {
+    background-color: #e2e2e2;
+  }
+  
+  button {
+    background-color: orange;
+    color: white;
+    font-size: 1.2em;
+    font-weight: bold;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+    width: 80%;
+    margin: 20px auto;
+    text-align: center;
+  }
+  
+  button:hover {
+    background-color: darkorange;
+    transform: scale(1.05);
+  }
+  
+  footer {
+    text-align: center;
+    margin-top: 40px;
+    padding: 10px;
+    background: beige;
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+    font-size: 1rem;
+    color: black;
+    border-radius: 30px;
+  }
